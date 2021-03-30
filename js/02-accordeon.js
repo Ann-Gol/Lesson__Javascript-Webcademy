@@ -1,9 +1,9 @@
-const headers = document.querySelectorAll("[data-name = 'accordeon-title']");
+const headers = document.querySelectorAll("[data-name='accordeon-title']");
 
-headers.forEach(function (item) {
-  item.addEventListener("click", showContent);
+headers.forEach(function(item){
+item.addEventListener("click", showContent)
 });
 
-function showContent() {
-  this.nextElementSibling.classList.toggle("hidden");
-}
+function showContent(){
+this.nextElementSibling.classList.toggle('hidden')
+};
