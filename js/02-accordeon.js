@@ -7,6 +7,3 @@ item.addEventListener("click", showContent)
 function showContent(){
 this.nextElementSibling.classList.toggle('hidden')
 };
-
-
-

@@ -1,5 +1,5 @@
 
-
+/* 
 // Находим нужные элементы: копка модалки, модалка и кнопка закрытия /////
 
 const button = document.querySelector('[data-modal-button]');
@@ -29,3 +29,4 @@ modal.addEventListener('click', function(){
 modal.querySelector('.modal-window').addEventListener('click', function(event){
   event.stopPropagation();
 })
+ */
